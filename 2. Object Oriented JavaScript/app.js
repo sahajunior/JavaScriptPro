@@ -184,7 +184,7 @@ console.log(personTwo)
 personTwo.deposit(500)
 personTwo.withdraw(1100)
 
-*/ 
+*/
 
 /*
 //  6. Instance Methods
@@ -328,7 +328,7 @@ console.log(myColorMoodTriangle.mood)
         this.breed = breed
     }
 
-    static genusSpecies = 'Feline Catus'    // This is common for all instances of Cat class & we can access it by directly from the class by writing "Cat.genusSpecies"
+    static genusSpecies = 'Felis Catus'    // This is common for all instances of Cat class & we can access it by directly from the class by writing "Cat.genusSpecies"
  }
 
  const blue = new Cat('blue', 'scottish fold')
@@ -361,7 +361,7 @@ class Cat{
     // If we use this in a non-static method or a normal method it refers to the Class's SPECIFIC Instance
 
 
-    static genusSpecies = 'Feline Catus'    
+    static genusSpecies = 'Felis Catus'    
 }
 
 const blue = new Cat('blue', 'scottish fold')
